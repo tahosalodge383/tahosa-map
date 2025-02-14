@@ -147,7 +147,7 @@
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
 			});
-			layer.bindPopup(content, { maxHeight: 400 });
+			layer.bindPopup(content, { maxHeight: 400, autoPan: false });
         }
 
         function style_GreaterColoradoCouncil_1_0(feature) {
