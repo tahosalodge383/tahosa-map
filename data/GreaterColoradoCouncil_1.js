@@ -9,8 +9,8 @@ var json_GreaterColoradoCouncil_1 = {
             "Chapter": "Mystic Raven",
             "District": "Alpine",
             "Name": "Mystic Raven Chapter (Alpine District)",
-            "Description": "https://www.tahosalodge.org/mystic-raven",
-            "URL": "https://www.tahosalodge.org/mystic-raven"
+            "Description": "https://www.tahosalodge.org/chapters/mystic-raven",
+            "URL": "https://www.tahosalodge.org/chapters/mystic-raven"
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -23,8 +23,8 @@ var json_GreaterColoradoCouncil_1 = {
             "Chapter": "Grey Wolf",
             "District": "Black Feather",
             "Name": "Grey Wolf Chapter (Black Feather District)",
-            "Description": "https://www.tahosalodge.org/grey-wolf",
-            "URL": "https://www.tahosalodge.org/grey-wolf"
+            "Description": "https://www.tahosalodge.org/chapters/grey-wolf",
+            "URL": "https://www.tahosalodge.org/chapters/grey-wolf"
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -37,8 +37,8 @@ var json_GreaterColoradoCouncil_1 = {
             "Chapter": "Medicine Pipe",
             "District": "Centennial",
             "Name": "Medicine Pipe Chapter (Centennial District)",
-            "Description": "https://www.tahosalodge.org/medicine-pipe",
-            "URL": "https://www.tahosalodge.org/medicine-pipe"
+            "Description": "https://www.tahosalodge.org/chapters/medicine-pipe",
+            "URL": "https://www.tahosalodge.org/chapters/medicine-pipe"
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -51,8 +51,8 @@ var json_GreaterColoradoCouncil_1 = {
             "Chapter": "White Buffalo",
             "District": "Frontier",
             "Name": "White Buffalo Chapter (Frontier District)",
-            "Description": "https://www.tahosalodge.org/white-buffalo",
-            "URL": "https://www.tahosalodge.org/white-buffalo"
+            "Description": "https://www.tahosalodge.org/chapters/white-buffalo",
+            "URL": "https://www.tahosalodge.org/chapters/white-buffalo"
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -65,8 +65,8 @@ var json_GreaterColoradoCouncil_1 = {
             "Chapter": "Mic-O-Say",
             "District": "Majestic Mesas",
             "Name": "Mic-O-Say Chapter (Majestic Mesas District)",
-            "Description": "https://www.tahosalodge.org/mic-o-say",
-            "URL": "https://www.tahosalodge.org/mic-o-say"
+            "Description": "https://www.tahosalodge.org/chapters/mic-o-say",
+            "URL": "https://www.tahosalodge.org/chapters/mic-o-say"
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -79,8 +79,8 @@ var json_GreaterColoradoCouncil_1 = {
             "Chapter": "White Water",
             "District": "Three Rivers",
             "Name": "White Water Chapter (Three Rivers District)",
-            "Description": "https://www.tahosalodge.org/white-water",
-            "URL": "https://www.tahosalodge.org/white-water"
+            "Description": "https://www.tahosalodge.org/chapters/white-water",
+            "URL": "https://www.tahosalodge.org/chapters/white-water"
         },
         "geometry": {
             "type": "MultiPolygon",
@@ -93,8 +93,8 @@ var json_GreaterColoradoCouncil_1 = {
             "Chapter": "Medicine Bear",
             "District": "Valley",
             "Name": "Medicine Bear Chapter (Valley District)",
-            "Description": "https://www.tahosalodge.org/medicine-bear",
-            "URL": "https://www.tahosalodge.org/medicine-bear"
+            "Description": "https://www.tahosalodge.org/chapters/medicine-bear",
+            "URL": "https://www.tahosalodge.org/chapters/medicine-bear"
         },
         "geometry": {
             "type": "MultiPolygon",
