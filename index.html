@@ -2,16 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width" name="viewport">
+        <meta content="yes" name="mobile-web-app-capable">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+		<link crossorigin="" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 			  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-			  crossorigin=""/>
-        <link rel="stylesheet" href="css/qgis2web.css">
-        <link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+			  rel="stylesheet"/>
+        <link href="css/qgis2web.css" rel="stylesheet">
+        <link href="css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="css/leaflet-control-geocoder.Geocoder.css" rel="stylesheet">
         <style>
         html, body, #map {
             width: 100%;
@@ -26,9 +26,9 @@
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        <script crossorigin=""
 				integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-				crossorigin=""></script>
+				src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script src="js/leaflet.rotatedMarker.js"></script>
         <script src="js/leaflet.pattern.js"></script>
         <script src="js/leaflet-hash.js"></script>
@@ -59,7 +59,7 @@
             zoomControl:false, maxZoom:28, minZoom:1
         }).fitBounds([[37.3308234523154,-110.50103985219809],[41.09061353391376,-102.26556933969704]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('<a href="https://github.com/tahosalodge383/tahosa-map" target="_blank">GitHub</a> &middot; <a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps" target="_blank">Leaflet</a> &middot; <a href="https://qgis.org" target="_blank">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         // remove popup's row if "visible-with-data"
         function removeEmptyRowsFromPopupContent(content, feature) {
@@ -100,7 +100,7 @@
         var layer_OSMStandard_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             pane: 'pane_OSMStandard_0',
             opacity: 1.0,
-            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>',
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA</a>',
             minZoom: 1,
             maxZoom: 28,
             minNativeZoom: 0,
@@ -128,7 +128,8 @@
 				click: function(e) {
 					var url = feature.properties['URL'];
 					if (url) {
-						window.open(url, '_blank'); // Opens the URL in a new tab
+						// window.open(url, '_blank'); // Opens the URL in a new tab
+                        window.open(url, '_top'); // Opens the URL in same window
 					}
 				}
             });
@@ -157,7 +158,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(183,107,171,1.0)',
@@ -172,7 +173,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(247,148,31,1.0)',
@@ -187,7 +188,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(31,170,227,1.0)',
@@ -202,7 +203,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(140,202,105,1.0)',
@@ -217,7 +218,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(7,184,156,1.0)',
@@ -232,7 +233,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(241,104,112,1.0)',
@@ -247,7 +248,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.5,
                 fillColor: 'rgba(253,212,120,1.0)',
