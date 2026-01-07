@@ -140,7 +140,7 @@
 		</Style>
 		<Placemark id="37">
 			<name>Mystic Raven Chapter (Alpine District)</name>
-			<description>https://www.tahosalodge.org/mystic-raven</description>
+			<description>https://www.tahosalodge.org/chapters/mystic-raven</description>
 			<styleUrl>#20</styleUrl>
 			<MultiGeometry id="36">
 				<Point id="38">
@@ -159,7 +159,7 @@
 		</Placemark>
 		<Placemark id="47">
 			<name>Grey Wolf Chapter (Black Feather District)</name>
-			<description>https://www.tahosalodge.org/grey-wolf</description>
+			<description>https://www.tahosalodge.org/chapters/grey-wolf</description>
 			<styleUrl>#0</styleUrl>
 			<MultiGeometry id="46">
 				<Point id="48">
@@ -178,7 +178,7 @@
 		</Placemark>
 		<Placemark id="57">
 			<name>Medicine Pipe Chapter (Centennial District)</name>
-			<description>https://www.tahosalodge.org/medicine-pipe</description>
+			<description>https://www.tahosalodge.org/chapters/medicine-pipe</description>
 			<styleUrl>#10</styleUrl>
 			<MultiGeometry id="56">
 				<Point id="58">
@@ -197,7 +197,7 @@
 		</Placemark>
 		<Placemark id="67">
 			<name>White Buffalo Chapter (Frontier District)</name>
-			<description>https://www.tahosalodge.org/white-buffalo</description>
+			<description>https://www.tahosalodge.org/chapters/white-buffalo</description>
 			<styleUrl>#25</styleUrl>
 			<MultiGeometry id="66">
 				<Point id="68">
@@ -216,7 +216,7 @@
 		</Placemark>
 		<Placemark id="77">
 			<name>Mic-O-Say Chapter (Majestic Mesas District)</name>
-			<description>https://www.tahosalodge.org/mic-o-say</description>
+			<description>https://www.tahosalodge.org/chapters/mic-o-say</description>
 			<styleUrl>#15</styleUrl>
 			<MultiGeometry id="76">
 				<Point id="78">
@@ -235,7 +235,7 @@
 		</Placemark>
 		<Placemark id="87">
 			<name>White Water Chapter (Three Rivers District)</name>
-			<description>https://www.tahosalodge.org/white-water</description>
+			<description>https://www.tahosalodge.org/chapters/white-water</description>
 			<styleUrl>#30</styleUrl>
 			<MultiGeometry id="86">
 				<Point id="88">
@@ -254,7 +254,7 @@
 		</Placemark>
 		<Placemark id="97">
 			<name>Medicine Bear Chapter (Valley District)</name>
-			<description>https://www.tahosalodge.org/medicine-bear</description>
+			<description>https://www.tahosalodge.org/chapters/medicine-bear</description>
 			<styleUrl>#5</styleUrl>
 			<MultiGeometry id="96">
 				<Point id="98">
