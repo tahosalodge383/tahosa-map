@@ -16,6 +16,7 @@ At the time of creation, the district map available on the council’s website:
 
 - was no longer aligned with the official **Council Service Territory Maps** published by Scouting America,
 - lacked important reference context (cities, counties, roads, state boundaries),
+- was just seven colored polygons outlining the districts on a white background,
 - and therefore made it difficult for someone to interpret where boundaries actually were.
 
 This version focuses on *orientation and clarity*: district/chapter boundaries are overlaid on OpenStreetMap and presented as an interactive map with hover/click behavior, labels, and familiar geographic context.
@@ -81,20 +82,13 @@ Other folders (such as `webfonts/`) contain assets required for the exported map
 
 ## Viewing the map locally
 
-You can usually preview the map in two ways:
+You can usually preview the map on your local machine:
 
-### Option A: Open the file directly
+### Open the file directly
 1. Download or clone this repository.
 2. Open `index.html` in your browser.
 
 Note: some browsers apply stricter security rules when opening local files (especially around loading local data files). If you run into missing layers or console warnings, use Option B.
-
-### Option B: Run a simple local static server (recommended)
-If you have Node.js available, you can run a lightweight server to preview exactly like it will behave when hosted.
-
-Then open the printed `http://localhost:...` URL.
-
-(Any equivalent static server works; the key is serving the folder over HTTP rather than using `file://`.)
 
 ---
 
@@ -120,7 +114,7 @@ Typically, that means updating some combination of:
 - files in `js/` and `css/`
 
 ### 4) Re-apply any manual tweaks (if applicable)
-If you have “post-export” edits you always do (styling adjustments, label behavior, UI cleanup), document them here as a checklist once they’re known and stable.
+After export, a small amount of manual HTML/asset tweaking may be needed to get the final hosted version polished and consistent.
 
 ### 5) Validate before publishing
 - Confirm boundaries visually at multiple zoom levels.
@@ -154,4 +148,5 @@ If you spot a boundary that looks incorrect:
 
 ## Author
 
-This map was created by Brendan Curley, 2025 Associate Lodge Adviser of Marketing.
+This map was originally created by Brendan Curley, 2025 Associate Lodge Adviser of Marketing.
+
